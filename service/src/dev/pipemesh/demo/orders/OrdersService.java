@@ -14,6 +14,6 @@ public final class OrdersService {
             System.out.println("orders: self-test passed (client " + OrdersClient.VERSION + ")");
             return;
         }
-        System.out.println("orders: serving " + orders.size() + " orders, " + total + " cents");
+        System.out.println("orders: serving " + orders.size() + " orders worth " + total + " cents");
     }
 }
