@@ -11,6 +11,7 @@ public final class OrdersClient {
     /** Bumped when the client's contract changes. */
     public static final String VERSION = "1.1.0";
 
+    // Where the orders service answers; unused by the demo's fixed data.
     private final String baseUrl;
 
     public OrdersClient(String baseUrl) {
