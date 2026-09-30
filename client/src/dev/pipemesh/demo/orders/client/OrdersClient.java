@@ -8,7 +8,7 @@ import java.util.List;
  */
 public final class OrdersClient {
 
-    /** Bumped when the client's contract changes. */
+    /** Bumped when the client's contract changes: callers read it in their logs. */
     public static final String VERSION = "1.1.0";
 
     // Where the orders service answers; unused by the demo's fixed data.
